@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:layout_marginTop="20.0dp">
+        <EditText
+            android:inputType="textLongMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/messageBox"
+            android:layout_marginBottom="9.3dp"
+            android:editable="true"
+            android:lines="6"
+            android:maxLength="160" />
+        <TextView
+            android:text="160"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/wordCount"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:layout_marginRight="20.0dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:layout_marginLeft="29.3dp"
+        android:layout_marginRight="5.3dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/btnNum"
+            android:text="Numerical" />
+        <Button
+            android:text="JAVA"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/btnJAVA" />
+        <Button
+            android:text="SE"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/btnSE" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3"
+        android:layout_marginRight="12.0dp"
+        android:layout_marginLeft="28.0dp">
+        <Button
+            android:text="ERP"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/btnERP" />
+        <Button
+            android:text="OS"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/btnOS" />
+        <Button
+            android:text="Complier"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/btnComp" />
+    </LinearLayout>
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtStatus"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="54.7dp"
+        android:text="Status: " />
+</LinearLayout>
